@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    background-color: #ffffff;
+}
+/*Inicio pagina Datos personales*/
+.main_header {
+    background-color: #000F46;
+    text-align: center;
+    padding: 20px;
+}
+
+.main_header_nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_header_nav {
+    text-align: center;
+}
+
+.main_header_nav_boton {
+    background-color: #CACACA;
+    width: 340px;
+    height: 386.41;
+    padding: 18px;
+    margin-top: 30px;
+    margin-bottom: 31px;
+    margin-right: 80px;
+    border-radius: 167px;
+
+}
+
+.main_header_nav_boton:hover {
+    padding: 20px;
+    background-color:#ffffff;
+    position: relative;
+    left: 10px;
+    transition: all 100ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+main {
+    padding: 50px;
+}
+
+.main_h1_curriculum {
+    padding: 25px;
+    text-align: center;
+}
+
+.main_presentacion {
+    display: flex;
+    justify-content: center;
+}
+
+.main_presentacion_caja {
+    line-height: 3;
+    display: flex;
+    background-color: #D9D9D9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 45px;
+}
+
+.main_presentacion_caja ul {
+    list-style: none;
+}
+
+.foto_imagen {
+    width: 340px;
+    height: 386.41px;
+    flex-shrink: 0;
+    border-radius: 167px;
+    margin: 15.5px;
+    padding-left: 35px;
+}
+.foto_imagen:hover{
+    transform: scale(1.2);
+}
+
+.derechos_reservados {
+    background-color: #000F46;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    height: 70px;
+}
+
+/*Fin pagina Datos personales*/
+
+/*Inicio pagina estudios*/
+.main_estudios_caja{
+    line-height: 2;
+    display: flex;
+    margin: 120px;
+    background-color: #D9D9D9;
+    padding: 45px;
+    align-items: center;
+}
+/*Fin pagina estudios*/
+
+/*Inicio pagina conocimientos*/
+.main_conocimientos_caja{
+    line-height: 3;
+    display: flex;
+    margin: 80px;
+    background-color: #D9D9D9;
+    padding: 45px;
+    align-items: center;
+}
+.main_conocimientos_caja ul {
+    list-style: none;
+}
+/*Fin pagina conocimientos*/
+
+/*Inicio pagina competencias*/
+.main_competencia_caja{
+    line-height: 2;
+    display: flex;
+    background-color: #D9D9D9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 45px;
+    align-items: center;
+}
+.main_competencia_caja ul{
+    list-style: none;
+}
+
+
+
+/*Fin pagina competencias*/
+
+.main_trabajo_caja{
+    line-height: 3;
+    display: flex;
+    background-color: #D9D9D9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 45px;
+    align-items: center;
+}
+.main_trabajo_caja ul{
+    list-style: none;
+}
