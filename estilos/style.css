@@ -162,7 +162,21 @@ main {
 }
 
 footer{
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
+}
+
+@media(max-width:550px){
+    footer{
+        
+
+    }
+    .main_header_nav ul{
+        flex-direction: column;
+    }
+    .main_presentacion_caja{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
