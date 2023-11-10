@@ -47,12 +47,14 @@ main {
 .main_presentacion {
     display: flex;
     justify-content: center;
+    
 }
 
 .main_presentacion_caja {
     line-height: 3; 
     display: flex; 
     background-color: #D9D9D9; 
+    width: 50%;
 }
 
 .main_presentacion_caja ul {
@@ -67,7 +69,7 @@ main {
     padding-left: 2%;
 }
 .foto_bautista:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -103,6 +105,7 @@ main {
     background-color: #D9D9D9;
     padding: 2%;
     align-items: center;
+    width: 50%;
 }
 .foto_estudios {
     width: 40%;
@@ -111,7 +114,7 @@ main {
     padding-left: 4%;
 }
 .foto_estudios:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 /*Fin pagina estudios*/
 
@@ -122,6 +125,7 @@ main {
     margin: 2%;
     background-color: #D9D9D9;
     align-items: center;
+    width: 50%;
 }
 .main_conocimientos_caja ul {
     list-style: none;
@@ -134,7 +138,7 @@ main {
     padding-left: 2%;
 }
 .foto_conocimiento:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 /*Fin pagina conocimientos*/
 
@@ -145,7 +149,7 @@ main {
     background-color: #D9D9D9;
     padding: 2%;
     align-items: center;
-    width: 50%;
+    width: 35%;
 }
 .main_competencia_caja ul{
     list-style: none;
@@ -157,7 +161,7 @@ main {
     margin: 8%;
 }
 .foto_competencias:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -172,8 +176,9 @@ main {
     background-color: #D9D9D9;
     padding: 2%;
     align-items: center;
+    width: 45%;
 }
-.main_trabajo_caja ul{
+.main_troabajo_caja ul{
     list-style: none;
 }
 .foto_trabajo{
@@ -182,7 +187,7 @@ main {
     border-radius: 167px;
 }
 .foto_trabajo:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /*Fin página trabajo*/
@@ -190,7 +195,7 @@ main {
 
 @media(max-width:550px){
     body{
-        font-size: 16px;
+        font-size: 105%;
         font-family: sans-serif;
     }
 
@@ -202,12 +207,15 @@ main {
 .main_presentacion_caja{
     display: flex;
     flex-direction: column-reverse;
-    width: 85%;
+    width: 71%;
 }
 .foto_bautista{
-    width: 95%;
-    height: 50%;
+    width: 94%;
+    height: 44%;
     padding-left: 0%;
+}
+.foto_bautista:hover{
+    transform: scale(1.0);
 }
 /*Fin pagina Datos personales*/
 
@@ -215,21 +223,32 @@ main {
 .main_estudios_caja{
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
 }
 .foto_estudios{
-    width: 75%;
-    height: 70%;
+    width: 60%;
+    height: 62%;
+    padding-left: 0%;
+}
+.foto_estudios:hover{
+    transform: scale(1.0);
 }
 /*Fin pagina estudios*/
 
 /*Inicio pagina conocimientos*/
+
 .main_conocimientos_caja{
     display: flex;
     flex-direction: column-reverse;
+    width: 81%;
 }
 .foto_conocimiento{
-    width: 60%;
-    height: 55%;
+    width: 56%;
+    height: 46%;
+    padding-left: 0%;
+}
+.foto_conocimiento:hover{
+    transform: scale(1.0);
 }
 /*Fin pagina conocimientos*/
 
@@ -237,11 +256,14 @@ main {
 .main_competencia_caja{
     display: flex;
     flex-direction: column-reverse;
-    width: 80%;
+    width: 60%;
 }
 .foto_competencias{
     width: 80%;
     height: 40%;
+}
+.foto_competencias:hover{
+    transform: scale(1.0);
 }
 /*Fin pagina competencias*/
 
@@ -249,10 +271,14 @@ main {
 .main_trabajo_caja{
     display: flex;
     flex-direction: column-reverse;
+    width: 81%;
 }
 .foto_trabajo{
-    width: 65%;
-    height: 50%;
+    width: 49%;
+    height: 38%;
+}
+.foto_trabajo:hover{
+    transform: scale(1.0);
 }
 /*Fin página trabajo*/
 
