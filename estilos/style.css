@@ -6,20 +6,20 @@
 a {
     text-decoration: none;
     text-align: center;
-    color: #000000;
+    color: #ffffff !important;
 
 }
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 23px;
+    font-size: 150%;
     background-color: #ffffff;
 }
 /*Inicio pagina Datos personales*/
 .main_header {
-    background-color: #000F46;
+    background-color: #2442b3;
     text-align: center;
-    padding: 20px;
+    padding: 3%;
     
 }
 
@@ -32,36 +32,15 @@ body {
     text-align: center;
 }
 
-.main_header_nav_boton {
-    background-color: #CACACA;
-    width: 340px;
-    height: 386.41;
-    padding: 18px;
-    margin-top: 30px;
-    margin-bottom: 31px;
-    margin-right: 30px;
-    border-radius: 167px;
 
-}
 
-.main_header_nav_boton:hover {
-    padding: 20px;
-    background-color:#ffffff;
-    position: relative;
-    left: 10px;
-    transition: all 100ms;
-    -webkit-transition: all 300ms;
-    -moz-transition: all 300ms;
-    -ms-transition: all 300ms linear;
-    -o-transition: all 300ms linear;
-}
 
 main {
-    padding: 50px;
+    padding: 2%;
 }
 
 .main_h1_curriculum {
-    padding: 25px;
+    padding: 2%;
     text-align: center;
 }
 
@@ -71,24 +50,21 @@ main {
 }
 
 .main_presentacion_caja {
-    line-height: 3;
-    display: flex;
-    background-color: #D9D9D9;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 45px;
+    line-height: 3; 
+    display: flex; 
+    background-color: #D9D9D9; 
 }
 
 .main_presentacion_caja ul {
     list-style: none;
 }
 .foto_bautista{
-    width: 340px;
-    height: 386.41px;
+    width: 31%;
+    height: 79%;
     flex-shrink: 0;
-    border-radius: 167px;
-    margin: 15.5px;
-    padding-left: 35px;
+    border-radius: 50%;
+    margin: 3%;
+    padding-left: 2%;
 }
 .foto_bautista:hover{
     transform: scale(1.2);
@@ -101,12 +77,21 @@ main {
 
 
 .derechos_reservados {
-    background-color: #000F46;
+
     text-align: center;
     color: #ffffff;
-    padding: 20px;
-    height: 70px;
+    padding: 1%;
 }
+.footer{
+    background-color: #2442b3;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+}
+
 
 /*Fin pagina Datos personales*/
 
@@ -114,20 +99,16 @@ main {
 .main_estudios_caja{
     line-height: 2;
     display: flex;
-    margin: 120px;
+    margin: 0%;
     background-color: #D9D9D9;
-    padding: 45px;
+    padding: 2%;
     align-items: center;
 }
 .foto_estudios {
-    width: 340px;
-    height: 386.41px;
-    /*    width: 283px;
-    height: 147px;*/
+    width: 40%;
     flex-shrink: 0;
-    border-radius: 167px;
-    margin: 15.5px;
-    padding-left: 35px;
+    margin: 5%;
+    padding-left: 4%;
 }
 .foto_estudios:hover{
     transform: scale(1.2);
@@ -138,23 +119,19 @@ main {
 .main_conocimientos_caja{
     line-height: 3;
     display: flex;
-    margin: 80px;
+    margin: 2%;
     background-color: #D9D9D9;
-    padding: 45px;
     align-items: center;
 }
 .main_conocimientos_caja ul {
     list-style: none;
 }
 .foto_conocimiento {
-    width: 340px;
-    height: 386.41px;
-    /*    width: 283px;
-    height: 147px;*/
+    width: 42%;
+    height: 70%;
     flex-shrink: 0;
-    border-radius: 167px;
-    margin: 15.5px;
-    padding-left: 35px;
+    margin: 2%;
+    padding-left: 2%;
 }
 .foto_conocimiento:hover{
     transform: scale(1.2);
@@ -166,23 +143,18 @@ main {
     line-height: 2;
     display: flex;
     background-color: #D9D9D9;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 45px;
+    padding: 2%;
     align-items: center;
+    width: 50%;
 }
 .main_competencia_caja ul{
     list-style: none;
 }
 .foto_competencias {
-    width: 340px;
-    height: 386.41px;
-    /*    width: 283px;
-    height: 147px;*/
+    width: 40%;
+    height: 78%;
     flex-shrink: 0;
-    border-radius: 167px;
-    margin: 15.5px;
-    padding-left: 35px;
+    margin: 8%;
 }
 .foto_competencias:hover{
     transform: scale(1.2);
@@ -198,23 +170,16 @@ main {
     line-height: 3;
     display: flex;
     background-color: #D9D9D9;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 45px;
+    padding: 2%;
     align-items: center;
 }
 .main_trabajo_caja ul{
     list-style: none;
 }
 .foto_trabajo{
-    width: 340px;
-    height: 386.41px;
-    /*    width: 283px;
-    height: 147px;*/
+    width: 41%;
     flex-shrink: 0;
     border-radius: 167px;
-    margin: 15.5px;
-    padding-left: 35px;
 }
 .foto_trabajo:hover{
     transform: scale(1.2);
@@ -222,64 +187,73 @@ main {
 
 /*Fin página trabajo*/
 
-footer{
-    position: relative;
-    width: 100%;
-    bottom: 0;
-}
 
 @media(max-width:550px){
     body{
         font-size: 16px;
         font-family: sans-serif;
     }
-    .main_header_nav ul{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .main_header_nav_boton{
-        background-color: #CACACA;
-        width: 8em;
-    }
-    .main_presentacion_caja{
-        display: flex;
-        flex-direction: column-reverse;
-        
-    }
-    .main_estudios_caja{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .main_conocimientos_caja{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .main_competencia_caja{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .main_trabajo_caja{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .foto_bautista{
-        width: 291px;
-        height: 300.41px;
-    }
-    .foto_estudios{
-        width: 220px;
-        height: 220px;
-    }
-    .foto_conocimiento{
-        width: 255px;
-        height: 220px;
-    }
-    .foto_competencias{
-        width: 275px;
-        height: 170px;
-    }
-    .foto_trabajo{
-        width: 220px;
-        height: 170px;
-    }
+
+
+/*Inicio pagina Datos personales*/
+.main_presentacion{
+    padding: 10%;
+}
+.main_presentacion_caja{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 85%;
+}
+.foto_bautista{
+    width: 95%;
+    height: 50%;
+    padding-left: 0%;
+}
+/*Fin pagina Datos personales*/
+
+/*Inicio pagina estudios*/
+.main_estudios_caja{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.foto_estudios{
+    width: 75%;
+    height: 70%;
+}
+/*Fin pagina estudios*/
+
+/*Inicio pagina conocimientos*/
+.main_conocimientos_caja{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.foto_conocimiento{
+    width: 60%;
+    height: 55%;
+}
+/*Fin pagina conocimientos*/
+
+/*Inicio pagina competencias*/
+.main_competencia_caja{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+}
+.foto_competencias{
+    width: 80%;
+    height: 40%;
+}
+/*Fin pagina competencias*/
+
+/*Inicio página trabajo*/
+.main_trabajo_caja{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.foto_trabajo{
+    width: 65%;
+    height: 50%;
+}
+/*Fin página trabajo*/
+
 }
