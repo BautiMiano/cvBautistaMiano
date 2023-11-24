@@ -15,37 +15,44 @@ body {
     font-size: 150%;
     background-color: #ffffff;
 }
+
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
 }
-.header-borroso{
+
+.header-borroso {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    filter: blur(5px); 
+    filter: blur(5px);
 }
-.main-borroso{
+
+.main-borroso {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    filter: blur(5px); 
+    filter: blur(5px);
 }
-.footer-borroso{
+
+.footer-borroso {
     bottom: 0px;
     width: 100%;
     position: fixed;
-    filter: blur(5px); 
+    filter: blur(5px);
 }
+
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
 }
-.centrar-js{
+
+.centrar-js {
     text-align: center;
 }
+
 /*Inicio pagina Datos personales*/
 .main_header {
     background-color: #2442b3;
@@ -239,6 +246,15 @@ main {
 
 /*Fin página trabajo*/
 
+/*Inicio página juego*/
+.contenedor-juego {
+    text-align: center;
+    margin: 5%;
+}
+
+
+/*Fin página juego*/
+
 
 @media(max-width:550px) {
     body {
@@ -344,5 +360,15 @@ main {
     }
 
     /*Fin página trabajo*/
+
+    /*Inicio página juego*/
+    .contenedor-juego {
+        text-align: center;
+        padding: 15%;
+        line-height: 2.5;
+    }
+
+
+    /*Fin página juego*/
 
 }
