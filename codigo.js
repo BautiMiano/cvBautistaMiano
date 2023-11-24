@@ -1,4 +1,4 @@
-let numeroAleatorio = generarNumeroAleatorio(); // Generar un número aleatorio entre 1 y 20
+let numeroAleatorio = generarNumeroAleatorio(); 
 let intentos = 5;
 
 function generarNumeroAleatorio() {
